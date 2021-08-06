@@ -66,7 +66,7 @@ const projetosData = [
     ),
     techUsed: "REACT.JS, React Hooks, context api, sass",
     github: "https://github.com/Juan-calero/my-Weather",
-    site: "http://juan-calero.github.io/my-Weather/",
+    site: "https://juan-calero.github.io/my-Weather/",
   },
 ]
 
