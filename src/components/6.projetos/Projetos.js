@@ -8,9 +8,9 @@ function Projetos() {
   })
 
   return (
-    <section id="projetos" className="projetos">
-      <h2 data-aos="fade-in">Projetos</h2>
-      <div className="projetos__items">{projetoComponents}</div>
+    <section id='projetos' className='projetos'>
+      <h2 data-aos='fade-in'>Work</h2>
+      <div className='projetos__items'>{projetoComponents}</div>
     </section>
   )
 }

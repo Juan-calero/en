@@ -5,12 +5,12 @@ import React from "react"
 
 const oQueFacoData = [
   {
-    title: "Desenvolvimento",
+    title: "Development",
     content: (
       <p>
-        Apaixonado pelo desenvolvimento front-end, produzo diariamente código
-        simples, limpo e legível, que poderá ser usado por outros e potenciado
-        para criar software excepcional.
+        Passionate about front-end development, I produce simple, clean and
+        readable code on a daily basis, which can be used by others and enhanced
+        to create exceptional software.
       </p>
     ),
     src: Gears,
@@ -19,20 +19,20 @@ const oQueFacoData = [
     title: "Design",
     content: (
       <p>
-        Design é mais do que o look final de um produto.
+        Design is more than the final look of a product.
         <br />
-        Requer uma atenção enorme ao detalhe, à sua funcionalidade interna e à
-        interação do usuário para criar uma experiência memorável.
+        It requires great attention to detail, to its internal functionality and
+        to the user's interaction to create a memorable experience.
       </p>
     ),
     src: Design,
   },
   {
-    title: "Colaboração",
+    title: "Collaboration",
     content: (
       <p>
-        Atendo às necessidades do cliente e colaboro com a equipa de forma a
-        potenciar o trabalho e gerar resultados.
+        I listen to the client's needs and collaborate with the team in order to
+        enhance the work and generate results.
       </p>
     ),
     src: Hands,

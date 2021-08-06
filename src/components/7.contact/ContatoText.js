@@ -1,46 +1,42 @@
 import React from "react"
 import { cursorHoverBig, cursorHoverSmall } from "../utils/CursorHoverHandler"
 import { email, phone } from "../utils/utils"
-import curriculo from "../../CV/PORTUGUESE CV.pdf"
+import curriculo from "../../CV/ENGLISH CV.pdf"
 
 export default function ContatoText() {
   return (
-    <div className="contatoContent">
-      <h2>Contactos</h2>
+    <div className='contatoContent'>
+      <h2>Contacts</h2>
       <p>
-        {`Captei o seu interesse?
+        {`Did I grab your interest?
 
-        Vamos conversar. Eu pago o café.
+        Let's talk. I'll pay for the coffee.
         
-        Trago a minha experiência para a mesa onde poderemos trabalhar juntos para resolver problemas reais numa maneira que otimiza as nossas respetivas experiências e conhecimentos.
+        I bring my experience to the table where we can work together to solve real problems in a way that optimizes our respective experiences and knowledge.
        
-        Contacte-me:
-       
+        Contact me:
         `}
         <a
-          className="contatoContent__text--anchor"
+          className='contatoContent__text--anchor'
           onMouseEnter={cursorHoverBig}
           onMouseLeave={cursorHoverSmall}
-          href={`tel:+351${phone}`}
-        >
+          href={`tel:+351${phone}`}>
           +351 {phone}
         </a>
         <a
-          className="contatoContent__text--anchor"
+          className='contatoContent__text--anchor'
           onMouseEnter={cursorHoverBig}
           onMouseLeave={cursorHoverSmall}
-          href={`mailto:${email}`}
-        >
+          href={`mailto:${email}`}>
           {email}
         </a>
       </p>
-      <a tabIndex="-1" href={curriculo} download="Juan Calero Curriculo.pdf">
+      <a tabIndex='-1' href={curriculo} download='Juan Calero CV.pdf'>
         <button
           onMouseEnter={cursorHoverBig}
           onMouseLeave={cursorHoverSmall}
-          className="btn"
-        >
-          Download Currículo
+          className='btn'>
+          Download CV
         </button>
       </a>
     </div>

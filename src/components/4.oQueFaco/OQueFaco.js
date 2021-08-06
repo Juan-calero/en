@@ -9,11 +9,11 @@ function OQueFaco() {
   ))
 
   return (
-    <section id="o_Que_Faço" className="oQueFaco">
-      <h2 data-aos="fade-right">O Que Faço</h2>
-      <div className="oQueFaco__items">{OQueFacoComponents}</div>
-      <aside className="oQueFaco__bg">
-        <img data-aos="fade" src={BigGear} alt="" />
+    <section id='o_Que_Faço' className='oQueFaco'>
+      <h2 data-aos='fade-right'>What I do</h2>
+      <div className='oQueFaco__items'>{OQueFacoComponents}</div>
+      <aside className='oQueFaco__bg'>
+        <img data-aos='fade' src={BigGear} alt='' />
       </aside>
     </section>
   )

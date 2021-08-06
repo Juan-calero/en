@@ -10,12 +10,11 @@ const projetosData = [
     title: "TerArtes",
     content: (
       <p>
-        Desenvolvimento de plataforma e-commerce para empresa de artesanato
-        "TerArtes".
+        Development of e-commerce platform for <i>TerArtes'</i> craft company.
         <br />
         <br />
-        Redução de Custo do Cliente (Host + CMS) para 0€, através do uso de
-        Gatsby + ContentfulCMS + Netlify.
+        Customer Cost Reduction (Host + CMS) to €0, through the use of Gatsby +
+        ContentfulCMS + Netlify.
       </p>
     ),
     techUsed: "GATSBY, GRAPHQL, COMMERCE.JS, SASS, JSX",
@@ -26,11 +25,11 @@ const projetosData = [
     title: "Washome",
     content: (
       <p>
-        Design e código para a empresa de limpeza têxtil "Washome", com layout
-        responsivo e compatibilidade entre browsers.
+        Design and website development for the textile cleaning company{" "}
+        <i>Washome</i>, with responsive layout and browser compatibility.
         <br />
         <br />
-        Inclui página de Detalhes, Formulário e Testemunhos em Carousel.
+        Includes Details page, Form and Carousel Testimonials.
       </p>
     ),
     techUsed: "REACT.JS, SaSS, JaVaSCRIPT",
@@ -42,11 +41,11 @@ const projetosData = [
     title: "Música em Si",
     content: (
       <p>
-        Desenvolvimento e manutenção da plataforma web da empresa de ensino
-        "Música em Si".
+        Development and maintenance of the educational company{" "}
+        <i>Música em Si'</i>s web platform .
         <br />
         <br />
-        Inclui landing pages, página de preçário e formulário multi-step.
+        Includes landing pages, pricing page and multi-step form.
       </p>
     ),
     techUsed: "Wix, Corvid",
@@ -57,11 +56,12 @@ const projetosData = [
     title: "Weather App",
     content: (
       <p>
-        Aplicação Web que tira partido do API do Instituto Português do Mar e da
-        Atmosfera.
+        Web app that uses the <i>Instituto Português do Mar e da Atmosfera's</i>{" "}
+        API .
         <br />
         <br />
-        Previsão Meteorológica a 5 dias, com pesquisa por distrito e sugestões.
+        5-day weather forecast, with search queries suggestions sorted by
+        Portuguese districts/islands.
       </p>
     ),
     techUsed: "REACT.JS, React Hooks, context api, sass",

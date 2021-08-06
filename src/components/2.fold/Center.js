@@ -13,14 +13,13 @@ function Center() {
     style.display = "none"
   }
   return (
-    <div className="fold__center">
+    <div className='fold__center'>
       <h1>
-        {"Olá, Sou "}
+        {"Hello, I'm "}
         <strong
-          className="fold__center--name"
+          className='fold__center--name'
           onMouseMove={(e) => enterMyFace(e)}
-          onMouseLeave={() => leaveMyFace()}
-        >
+          onMouseLeave={() => leaveMyFace()}>
           Juan Calero
         </strong>
         ,<br /> Front-end web developer.
@@ -29,9 +28,8 @@ function Center() {
         onMouseEnter={cursorHoverBig}
         onMouseLeave={cursorHoverSmall}
         onClick={() => window.location.replace("/#sobre")}
-        className="fold__btn"
-      >
-        Saber Mais {">"}
+        className='fold__btn'>
+        Learn More {">"}
       </button>
     </div>
   )

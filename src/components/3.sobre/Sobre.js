@@ -4,20 +4,19 @@ import SobreTitle from "./SobreTitle"
 
 function Sobre() {
   return (
-    <section id="sobre" className="sobre">
-      <img data-aos="fade" src={Brain} alt="Cérebro Neon" loading="lazy" />
+    <section id='sobre' className='sobre'>
+      <img data-aos='fade' src={Brain} alt='Cérebro Neon' loading='lazy' />
       <SobreTitle />
-      <p data-aos="fade" data-aos-offset="140">
-        Programador Front-end energético com mais de{" "}
-        <b>2 anos de experiência</b> a{" "}
-        <b>desenhar e desenvolver websites de alta qualidade</b>, sediado em
-        Sintra, Portugal.
+      <p data-aos='fade' data-aos-offset='140'>
+        Energetic Front-end developer based in Sintra, Portugal, with{" "}
+        <b>2+ years</b> of experience{" "}
+        <b>designing and developing high quality websites.</b>
         <br /> <br />
-        <b> Reduzi o Custo do Cliente</b> (Host + CMS) para 0€ para a empresa
-        "TerArtes" e<b> aumentei a conversão de clientes em 73%</b> na empresa
-        "Música em Si".
+        <b>I've reduced costumer's costs</b> (Host + CMS) to 0€ for TerArtes'
+        craft company <b>and raised client's conversion </b> to 75% at Música em
+        Si.
         <br /> <br />
-        <b>Anseio por novos desafios e adoro superar-me.</b>
+        <b>I love new challenges and thrive to better myself everyday.</b>
         <br /> <br />
       </p>
     </section>

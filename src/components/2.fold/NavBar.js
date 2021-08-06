@@ -5,27 +5,25 @@ function NavBar() {
   return (
     <nav>
       <ol
-        className="fold__navbar"
+        className='fold__navbar'
         onMouseEnter={cursorHoverBig}
-        onMouseLeave={cursorHoverSmall}
-      >
+        onMouseLeave={cursorHoverSmall}>
         <li>
-          <a href="#sobre">Sobre</a>
+          <a href='#sobre'>About</a>
         </li>
         <li>
-          <a href="#o_Que_Faço">O que faço</a>
+          <a href='#o_Que_Faço'>What I do</a>
         </li>
         <li>
-          <a href="#experiência">Experiência</a>
+          <a href='#experiência'>Experience</a>
         </li>
         <li>
-          <a href="#projetos">Projetos</a>
+          <a href='#projetos'>Work</a>
         </li>
         <button
           onClick={() => window.location.replace("/#contato")}
-          className="btn"
-        >
-          Contatos
+          className='btn'>
+          Contacts
         </button>
       </ol>
     </nav>

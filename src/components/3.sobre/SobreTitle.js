@@ -3,9 +3,9 @@ import HLines from "./HLines"
 
 function SobreTitle() {
   return (
-    <div className="sobre__title">
+    <div className='sobre__title'>
       <HLines />
-      <h2>Sobre</h2>
+      <h2>about</h2>
       <HLines />
     </div>
   )
